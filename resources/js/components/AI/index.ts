@@ -1,0 +1,5 @@
+export { default as ChatMessage } from './ChatMessage.vue'
+export { default as ChatInterface } from './ChatInterface.vue'
+export { default as InvestmentAdvisor } from './InvestmentAdvisor.vue'
+export { default as ConversationHistory } from './ConversationHistory.vue'
+export { default as ConversationStats } from './ConversationStats.vue'

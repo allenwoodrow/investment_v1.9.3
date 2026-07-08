@@ -1,0 +1,9 @@
+<?php
+
+return [
+    App\Providers\AppServiceProvider::class,
+    Spatie\Permission\PermissionServiceProvider::class,
+    App\Providers\PaginationProvider::class,
+    App\Providers\EventServiceProvider::class,
+    Martins\ArtisanGUI\ArtisanGUIServiceProvider::class,
+];
