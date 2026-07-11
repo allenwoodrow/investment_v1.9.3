@@ -1,3 +1,10 @@
+@php
+    Session::put('locale', 'en');
+    Session::put('locale_preferred', false);
+    App::setLocale('en');
+    app()->setLocale('en');
+@endphp
+
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>

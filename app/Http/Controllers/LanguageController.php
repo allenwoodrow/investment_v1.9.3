@@ -13,14 +13,12 @@ class LanguageController extends Controller
         $locale = $request->input('locale');
         
         if (in_array($locale, ['pt', 'en', 'es'])) {
-            // Store in session
             Session::put('locale', $locale);
-            
-            // Immediately apply the locale
+            Session::put('locale_preferred', true);
+
             App::setLocale($locale);
             app()->setLocale($locale);
-            
-            // Force save the session
+
             Session::save();
         }
         
@@ -33,6 +31,7 @@ class LanguageController extends Controller
         
         if (in_array($locale, ['pt', 'en', 'es'])) {
             Session::put('locale', $locale);
+            Session::put('locale_preferred', true);
             App::setLocale($locale);
             app()->setLocale($locale);
             Session::save();

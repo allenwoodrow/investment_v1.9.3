@@ -1,8 +1,7 @@
 @php
-    // Remove after testing
-    if(!Session::has('locale')) {
-        Session::put('locale', 'pt');
-        App::setLocale('pt');
+    if (!Session::has('locale')) {
+        Session::put('locale', 'en');
+        App::setLocale('en');
     }
 @endphp
 

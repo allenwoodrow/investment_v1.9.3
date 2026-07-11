@@ -11,42 +11,40 @@ class LanguageMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        // Check if user has explicitly chosen a language
-        if (Session::has('locale')) {
+        $localePreferred = (bool) Session::get('locale_preferred', false);
+
+        if ($localePreferred && Session::has('locale')) {
             $locale = Session::get('locale');
         } else {
-            // No choice made yet - detect from browser or default to Portuguese
             $locale = $this->detectBrowserLanguage($request);
             Session::put('locale', $locale);
+            Session::put('locale_preferred', false);
         }
-        
-        // Validate the locale
+
+        // Validate the locale and fall back to English.
         if (!in_array($locale, ['pt', 'en', 'es'])) {
-            $locale = 'pt';
+            $locale = 'en';
             Session::put('locale', $locale);
+            Session::put('locale_preferred', false);
         }
-        
-        // Set the application locale
+
+        // Set the application locale.
         App::setLocale($locale);
         app()->setLocale($locale);
-        
+
         return $next($request);
     }
     
     private function detectBrowserLanguage(Request $request)
     {
         $acceptLanguage = $request->header('Accept-Language');
-        
+
         if ($acceptLanguage) {
             $languages = explode(',', $acceptLanguage);
-            
+
             foreach ($languages as $language) {
                 $locale = substr(trim($language), 0, 2);
-                
-                if ($locale === 'pt') {
-                    return 'pt';
-                }
-                
+
                 if ($locale === 'en') {
                     return 'en';
                 }
@@ -56,7 +54,7 @@ class LanguageMiddleware
                 }
             }
         }
-        
-        return 'pt'; // Default to Portuguese
+
+        return 'en';
     }
 }

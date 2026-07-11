@@ -11,13 +11,15 @@ class LocaleServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->app->booted(function () {
-            // Default to Portuguese if no session locale
-            $locale = Session::get('locale', 'pt');
-            
-            if (in_array($locale, ['pt', 'en', 'es'])) {
+            $localePreferred = (bool) Session::get('locale_preferred', false);
+            $locale = Session::get('locale', 'en');
+
+            if ($localePreferred && in_array($locale, ['pt', 'en', 'es'])) {
                 App::setLocale($locale);
             } else {
-                App::setLocale('pt'); // Fallback to Portuguese
+                Session::put('locale', 'en');
+                Session::put('locale_preferred', false);
+                App::setLocale('en');
             }
         });
     }

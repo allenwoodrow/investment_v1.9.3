@@ -3,24 +3,25 @@ import en from './en';
 import es from './es';
 import pt from './pt';
 
-// Get saved locale from localStorage or default to Portuguese
+// Get the saved locale from localStorage, or default to English.
 function getSavedLocale(): string {
-  const saved = localStorage.getItem('app_locale');
-  if (saved && ['pt', 'en', 'es'].includes(saved)) {
-    return saved;
+  const preferred = localStorage.getItem('app_locale_preferred');
+  if (preferred === '1') {
+    const saved = localStorage.getItem('app_locale');
+    if (saved && ['pt', 'en', 'es'].includes(saved)) {
+      return saved;
+    }
   }
-  // Try browser language
+
   const browserLang = navigator.language.split('-')[0];
-  if (browserLang === 'pt') return 'pt';
   if (browserLang === 'es') return 'es';
-  // Default to Portuguese
-  return 'pt';
+  return 'en';
 }
 
 const i18n = createI18n({
   legacy: false,
   locale: getSavedLocale(),
-  fallbackLocale: 'pt',
+  fallbackLocale: 'en',
   messages: {
     en,
     es,
@@ -31,6 +32,7 @@ const i18n = createI18n({
 export function setLocale(locale: 'pt' | 'en' | 'es') {
   i18n.global.locale.value = locale;
   localStorage.setItem('app_locale', locale);
+  localStorage.setItem('app_locale_preferred', '1');
   // Also sync with backend
   fetch('/language/switch', {
     method: 'POST',
