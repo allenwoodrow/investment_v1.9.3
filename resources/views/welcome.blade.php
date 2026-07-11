@@ -962,8 +962,9 @@
 
 <script>
 function switchLanguage(locale) {
-    if (['pt', 'en'].includes(locale)) {
+    if (['pt', 'en', 'es'].includes(locale)) {
         localStorage.setItem('app_locale', locale);
+        localStorage.setItem('app_locale_preferred', '1');
     }
 
     const form = document.createElement('form');

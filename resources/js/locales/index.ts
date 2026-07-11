@@ -3,18 +3,15 @@ import en from './en';
 import es from './es';
 import pt from './pt';
 
-// Get the saved locale from localStorage, or default to English.
+// Start in English and ignore any previously persisted Portuguese preference.
 function getSavedLocale(): string {
-  const preferred = localStorage.getItem('app_locale_preferred');
-  if (preferred === '1') {
-    const saved = localStorage.getItem('app_locale');
-    if (saved && ['pt', 'en', 'es'].includes(saved)) {
-      return saved;
-    }
+  const saved = localStorage.getItem('app_locale');
+  if (saved && ['en', 'es'].includes(saved)) {
+    return saved;
   }
 
-  const browserLang = navigator.language.split('-')[0];
-  if (browserLang === 'es') return 'es';
+  localStorage.setItem('app_locale', 'en');
+  localStorage.setItem('app_locale_preferred', '0');
   return 'en';
 }
 
