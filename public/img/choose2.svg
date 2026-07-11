@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118" height="134" viewBox="0 0 118 134">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.043" y1="0.201" x2="1.037" y2="0.796" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc91f"/>
+      <stop offset="1" stop-color="#ff8042"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.019" y1="0.236" x2="0.976" y2="0.761" xlink:href="#linear-gradient"/>
+    <filter id="パス_509" x="0" y="0" width="118" height="134" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ffc91f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="-0.849" y1="-0.852" x2="1.616" y2="1.599" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-1.488" y1="-2.321" x2="3.54" y2="4.809" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-1.152" y1="-1.786" x2="3.606" y2="4.804" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-1.21" y1="-3.293" x2="3.52" y2="6.225" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="-6.608" y1="-4.379" x2="8.581" y2="6.046" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="-1.285" y1="-3.441" x2="3.444" y2="6.063" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="-6.852" y1="-4.547" x2="8.338" y2="5.88" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="-7.095" y1="-4.713" x2="8.096" y2="5.713" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="-1.361" y1="-3.599" x2="3.368" y2="5.919" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="-2.021" y1="-1.055" x2="4.445" y2="2.647" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="-2.639" y1="-3.959" x2="2.389" y2="3.18" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-14" x1="-2.242" y1="-3.295" x2="2.516" y2="3.295" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-15" x1="-2.293" y1="-5.473" x2="2.436" y2="4.045" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-16" x1="-10.086" y1="-6.767" x2="5.103" y2="3.658" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-17" x1="-2.368" y1="-5.625" x2="2.361" y2="3.894" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-18" x1="-10.33" y1="-6.933" x2="4.86" y2="3.492" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-19" x1="-10.573" y1="-7.101" x2="4.617" y2="3.325" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-20" x1="-2.443" y1="-5.778" x2="2.285" y2="3.741" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-21" x1="-3.498" y1="-1.902" x2="2.963" y2="1.8" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-22" x1="-1.014" y1="-0.513" x2="2.946" y2="2.109" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="_レイヤー_1-2" transform="translate(9 9)">
+    <g id="グループ_1197" data-name="グループ 1197">
+      <path id="パス_508" data-name="パス 508" d="M49.849,109.171,5.61,83.5V32.153L49.849,6.48,94.088,32.153V83.5L49.849,109.171ZM6.637,82.9l43.212,25.074L93.061,82.9V32.752L49.849,7.667,6.637,32.752V82.91Z" transform="translate(0.151 0.174)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#パス_509)">
+        <path id="パス_509-2" data-name="パス 509" d="M50,116,0,87V29L50,0l50,29V87ZM2.054,85.8,50,113.617,97.946,85.8V30.186L50,2.383,2.054,30.186Z" transform="translate(9 9)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="グループ_1196" data-name="グループ 1196" transform="translate(14.89 28.466)">
+        <path id="パス_510" data-name="パス 510" d="M28.03,81.684S51.341,93.463,61.209,76.1l3.666,1.458s-1.818-7.414-4.724-15.5c-.924,1.941-10.9,9.283-10.9,9.283l4.837,1.92c-3.656,4.457-11.5,10.618-26.063,8.421Z" transform="translate(-14.136 -26.529)" fill="url(#linear-gradient-3)"/>
+        <g id="グループ_1194" data-name="グループ 1194" transform="translate(14.387)">
+          <path id="パス_511" data-name="パス 511" d="M41.485,32.153l4.744-3.091,9.263,3.183-4.785,3.122,1.725.606,6.336-4.128L46.024,27.46,39.75,31.547Z" transform="translate(-28.208 -27.46)" fill="url(#linear-gradient-4)"/>
+          <path id="パス_512" data-name="パス 512" d="M46.881,37.88l-5.833,3.8-9.263-3.194,5.864-3.82-1.725-.606L28.51,38.9l12.744,4.375,7.353-4.785Z" transform="translate(-28.51 -27.282)" fill="url(#linear-gradient-5)"/>
+          <path id="パス_513" data-name="パス 513" d="M48.73,40.49,41.4,45.275,28.51,40.839v1.53l13.083,4.5,7.137-4.652Z" transform="translate(-28.51 -27.109)" fill="url(#linear-gradient-6)"/>
+          <path id="パス_514" data-name="パス 514" d="M52.14,38.037v1.725l6.295-4.1V33.94Z" transform="translate(-27.874 -27.286)" fill="url(#linear-gradient-7)"/>
+          <path id="パス_515" data-name="パス 515" d="M48.73,43.78,41.4,48.565,28.51,44.129v1.53l13.083,4.508,7.137-4.662Z" transform="translate(-28.51 -27.021)" fill="url(#linear-gradient-8)"/>
+          <path id="パス_516" data-name="パス 516" d="M52.14,41.327v1.725l6.295-4.1V37.23Z" transform="translate(-27.874 -27.197)" fill="url(#linear-gradient-9)"/>
+          <path id="パス_517" data-name="パス 517" d="M52.14,44.617v1.725l6.295-4.1V40.52Z" transform="translate(-27.874 -27.108)" fill="url(#linear-gradient-10)"/>
+          <path id="パス_518" data-name="パス 518" d="M48.73,47.08,41.4,51.855,28.51,47.419v1.53l13.083,4.508,7.137-4.652Z" transform="translate(-28.51 -26.932)" fill="url(#linear-gradient-11)"/>
+          <path id="パス_519" data-name="パス 519" d="M38.893,32.04,36.87,33.457,49.634,37.9V48.44l2.023-1.427V36.487Z" transform="translate(-28.285 -27.337)" fill="url(#linear-gradient-12)"/>
+        </g>
+        <g id="グループ_1195" data-name="グループ 1195" transform="translate(39.669 8.564)">
+          <path id="パス_520" data-name="パス 520" d="M66.1,40.493,70.84,37.4l9.273,3.183-4.785,3.122,1.725.6,6.336-4.118L70.644,35.8,64.37,39.887Z" transform="translate(-52.828 -35.8)" fill="url(#linear-gradient-13)"/>
+          <path id="パス_521" data-name="パス 521" d="M71.491,46.22l-5.823,3.789-9.263-3.183,5.864-3.82L60.544,42.4,53.13,47.227l12.734,4.385,7.363-4.8Z" transform="translate(-53.13 -35.622)" fill="url(#linear-gradient-14)"/>
+          <path id="パス_522" data-name="パス 522" d="M73.35,48.83l-7.342,4.785L53.13,49.179v1.53l13.083,4.5,7.137-4.652Z" transform="translate(-53.13 -35.449)" fill="url(#linear-gradient-15)"/>
+          <path id="パス_523" data-name="パス 523" d="M76.76,46.377V48.1l6.295-4.108V42.28Z" transform="translate(-52.494 -35.626)" fill="url(#linear-gradient-16)"/>
+          <path id="パス_524" data-name="パス 524" d="M73.35,52.12l-7.342,4.785L53.13,52.469V54l13.083,4.5,7.137-4.652Z" transform="translate(-53.13 -35.361)" fill="url(#linear-gradient-17)"/>
+          <path id="パス_525" data-name="パス 525" d="M76.76,49.667v1.725l6.295-4.108V45.57Z" transform="translate(-52.494 -35.537)" fill="url(#linear-gradient-18)"/>
+          <path id="パス_526" data-name="パス 526" d="M76.76,52.957v1.725l6.295-4.108V48.86Z" transform="translate(-52.494 -35.448)" fill="url(#linear-gradient-19)"/>
+          <path id="パス_527" data-name="パス 527" d="M73.35,55.41,66.007,60.2,53.13,55.759v1.53l13.083,4.5,7.137-4.652Z" transform="translate(-53.13 -35.272)" fill="url(#linear-gradient-20)"/>
+          <path id="パス_528" data-name="パス 528" d="M63.513,40.37,61.48,41.8l12.775,4.447V56.77l2.023-1.417V44.827Z" transform="translate(-52.905 -35.677)" fill="url(#linear-gradient-21)"/>
+        </g>
+        <path id="パス_529" data-name="パス 529" d="M29.031,55.22l-6.706,4.026-.308.185-6.593,3.954L14.5,73.776l19.172,4.6.205-.791L38.643,59.3l-9.6-4.077Zm-.318,2.126,1.623,4.9-6.028-2.259,4.405-2.649Zm-5.443,3.82,6.552,2.454-7.4,4.436.842-6.891Zm-1.52.349-.77,6.305h0L17.437,64.1l4.323-2.588Zm-4.878,4.128h0l3.481,3.646-4.015,2.4.534-6.059Zm4.611,4.672,7.671,5.268L17.406,72.77l4.077-2.444Zm10.67,5.545-9.283-6.367,8.03-4.816,1.253,11.193Zm1.16-2.773-1.027-9.242L36.363,61.4ZM31.906,62.357l-1.581-4.785h0l5.6,2.382-4.015,2.4Z" transform="translate(-14.5 -26.713)" fill="url(#linear-gradient-22)"/>
+      </g>
+    </g>
+  </g>
+</svg>

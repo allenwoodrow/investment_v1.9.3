@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118" height="134" viewBox="0 0 118 134">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.741" y1="-0.271" x2="2.014" y2="1.087" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc91f"/>
+      <stop offset="1" stop-color="#ff8042"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-1.056" y1="-0.108" x2="1.7" y2="1.25" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.062" y1="0.213" x2="1.045" y2="0.779" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.003" y1="0.246" x2="0.982" y2="0.747" xlink:href="#linear-gradient"/>
+    <filter id="パス_546" x="0" y="0" width="118" height="134" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ffc91f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_レイヤー_1-2" transform="translate(9 9)">
+    <g id="グループ_1204" data-name="グループ 1204">
+      <g id="グループ_1203" data-name="グループ 1203" transform="translate(30.54 27.85)">
+        <path id="パス_543" data-name="パス 543" d="M63.613,31.923q-4.945-5.068-14.5-5.063c-6.367,0-11.162,1.694-14.479,5.083a14.8,14.8,0,0,0-1.674,2.074l7.116,7.117a8.307,8.307,0,0,1,1.54-2.536q2.388-2.649,7.5-2.649t7.5,2.649Q59,41.247,59,46.207V60.05l9.5,9.5c.031-.575.062-1.15.062-1.746v-21.6q0-9.227-4.939-14.295Z" transform="translate(-29.653 -26.86)" fill="url(#linear-gradient)"/>
+        <path id="パス_544" data-name="パス 544" d="M56.665,74.961c-1.612,1.766-4.1,2.649-7.476,2.649s-5.864-.883-7.476-2.649-2.413-4.3-2.413-7.609V53.509l-9.5-9.5c-.031.575-.062,1.15-.062,1.746v21.6q0,9.134,4.939,14.243t14.5,5.1c6.367,0,11.162-1.694,14.479-5.083a14.8,14.8,0,0,0,1.674-2.074l-7.116-7.127a8.285,8.285,0,0,1-1.551,2.536Z" transform="translate(-29.74 -26.398)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <path id="パス_545" data-name="パス 545" d="M49.849,109.171,5.61,83.5V32.153L49.849,6.48,94.088,32.153V83.5L49.849,109.171ZM6.637,82.9l43.212,25.074L93.061,82.9V32.752L49.849,7.667,6.637,32.752V82.91Z" transform="translate(0.151 0.174)" fill="url(#linear-gradient-3)"/>
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#パス_546)">
+        <path id="パス_546-2" data-name="パス 546" d="M50,116,0,87V29L50,0l50,29V87ZM2.054,85.8,50,113.617,97.946,85.8V30.186L50,2.383,2.054,30.186Z" transform="translate(9 9)" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>
